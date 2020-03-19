@@ -12,4 +12,11 @@ df = pd.DataFrame({"A": [1, 2, 3], "B": [1, 2, 111113]}, index=['a', 'a', 'b'])
 
 print(df.head())
 
+df2 = pd.DataFrame({'x': ['abc', None, 'def'],
+                   'y': [1, 2, np.nan],
+                   'z': [True, False, True]})
+
+df2.head()
+
+
 #%%
